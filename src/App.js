@@ -77,9 +77,9 @@ function Company() {
   ]
 
 
-  function filterData(companyData, filters) {
-    return companyData.filter(item => filters.includes(item.location));
-  }
+  // function filterData(companyData, filters) {
+  //   return companyData.filter(item => filters.includes(item.location));
+  // }
 
   return (
     <div>
