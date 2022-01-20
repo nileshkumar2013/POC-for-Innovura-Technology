@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,111 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.content-div {
+  display:inline;
+float:left;
+border: 1px solid #dbdbdb;
+padding: 10px;
+}
+
+.filter-div {
+  display:inline;
+float:left;
+margin-right: 10px;
+border: 1px solid #dbdbdb;
+padding: 10px;
+}
+
+.main-div{
+  padding: 10px;
+}
+
+
+.image-div {
+  display:inline;
+float:left;
+padding: 10px;
+}
+
+.comapny-details-div {
+  display:inline;
+float:left;
+padding: 10px;
+}
+
+.rating-div {
+  display:inline;
+float:left;
+padding: 10px;
+text-align: center;
+}
+
+.company-div{
+  padding: 10px;
+}
+
+.ad-css {
+  color: #92DA53;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.title-css {
+  color: black;
+  font-weight: 700;
+}
+.subtitle-css {
+  font-size: 0.8rem;
+  color: #949494;
+}
+
+.value-css {
+  font-size: 0.8rem;
+  color: #707070;
+  margin-right: 50px;
+}
+
+.lable-css {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.divider-bottom {
+  border-top: 3px solid black !important;
+}
+
+.reviews {
+  color: #0599DC;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.write-review {
+  padding: 5px 15px 5px 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(238, 238, 238);
+}
+
+.chat-btn {
+  background-color: #0599DC;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+
+.enquiry-btn {
+  background-color: #e6e6e6;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  border: none;
+  color: rgb(99, 99, 99);
 }
