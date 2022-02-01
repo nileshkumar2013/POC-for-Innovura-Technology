@@ -40,7 +40,6 @@
 
 
 .content-div {
-  display:inline;
 float:left;
 border: 1px solid #dbdbdb;
 padding: 10px;
@@ -63,11 +62,10 @@ padding: 10px;
   display:inline;
 float:left;
 padding: 10px;
+border: 1px solid #dbdbdb;
 }
 
 .comapny-details-div {
-  display:inline;
-float:left;
 padding: 10px;
 }
 
@@ -142,4 +140,14 @@ text-align: center;
   border-radius: 4px;
   border: none;
   color: rgb(99, 99, 99);
+}
+
+.point-div {
+  display:inline;
+float:left;
+}
+
+.point1-div {
+  display:inline;
+float:left;
 }

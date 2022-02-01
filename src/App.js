@@ -98,32 +98,48 @@ function Company() {
           </div>
         </div>
         <div className='content-div'>
-          {companyData.map(ele =>
-            <div>
-              <div className='image-div'>
-                <img className="submenu-image" src={ele.image} alt="" />
+          <div className='image-div'>
+            <img className="submenu-image" src="/images/reliance-img.png" alt="" />
+          </div>
+          <div className='comapny-details-div'>
+            <span className="ad-css">Ad</span> <span className="title-css">Reliance Industries Ltd.</span>
+            <p className="subtitle-css">Digital Marketing Agency<i class="flag flag-india"></i> IN</p>
+            <div className="point-div">
+              <div className="point1-div" style={{ marginRight: '5rem' }}>
+                <ul>
+                  <li className='price-li'>
+                    team members
+                  </li>
+                  <li className='price-li'>
+                    team playlists
+                  </li>
+                  <li className='price-li'>
+                    public playlists
+                  </li>
+                </ul>
               </div>
-              <div className='comapny-details-div'>
-                <span className='ad-css'>Ad </span><span className='title-css'>{ele.title}</span>
-                <p className='subtitle-css'>{ele.subTitle}</p>
-                <p className='value-css'>{ele.address}</p>
-                <span className='lable-css'>Founding Year : </span><span className='value-css'>{ele.foundingYear}</span>
-                <span className='value-css'>{ele.mobileNumber}</span>
-                <span className='value-css'>{ele.openCloseTime}</span>
-                <div className='divided-bottom'>
-                  <span className='lable-css'>Min Order : </span><span className='value-css'>{ele.minOrder}</span>
-                  <span className='lable-css'>Team : </span><span className='value-css'>{ele.team}</span>
-                  <span className='lable-css'>Response Rate : </span><span className='value-css'>{ele.responseRate}</span>
-                </div>
-              </div>
-              <div className='rating-div'>
-                <StarRating /><br />
-                <span className='reviews'>{ele.reviews}</span><br />
-                <button className="write-review"><FaEdit style={{ color: 'grey' }} /> Write review</button><br />
-                <div style={{marginTop:'10px'}}><button className="chat-btn">Chat</button> <button className="enquiry-btn">Enquiry</button></div>
+              <div className="point1-div">
+                <ul>
+                  <li className='price-li'>
+                    team members
+                  </li>
+                  <li className='price-li'>
+                    team playlists
+                  </li>
+                  <li className='price-li'>
+                    public playlists
+                  </li>
+                </ul>
               </div>
             </div>
-          )}
+          </div>
+          <div>504 NBC Complex, Plot #43, Sector 11, Opp IDBI Bank, CBD Balapur, Navi-Mumbai, 400614</div>
+        </div>
+        <div className='rating-div'>
+          <StarRating /><br />
+          <span className='reviews'>review</span><br />
+          <button className="write-review"><FaEdit style={{ color: 'grey' }} /> Write review</button><br />
+          <div style={{ marginTop: '10px' }}><button className="chat-btn">Chat</button> <button className="enquiry-btn">Enquiry</button></div>
         </div>
       </div>
     </div>
